@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack">
+
+    <LinearLayout
+        android:layout_marginHorizontal="25dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:background="@drawable/rounded"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tv_test"
+            android:textColor="@color/teksAbu"
+            android:layout_height="wrap_content"
+            android:text="@string/nama"/>
+        <EditText
+            android:layout_width="match_parent"
+
+            android:id="@+id/et_nama_edit"
+            android:textColor="@color/teksPutih"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:hint="nama"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Hp"
+            android:textColor="@color/teksAbu"/>
+        <EditText
+            android:textColor="@color/teksPutih"
+            android:layout_width="match_parent"
+            android:id="@+id/et_nohp_edit"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+
+            android:hint="No Hp"/>
+        <TextView
+            android:textColor="@color/teksAbu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"/>
+        <EditText
+            android:textColor="@color/teksPutih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_alamat_edit"
+            android:layout_marginBottom="25dp"
+
+            android:hint="Alamat"/>
+        <TextView
+            android:textColor="@color/teksAbu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hubungan"/>
+        <EditText
+            android:textColor="@color/teksPutih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_hubungan_edit"
+            android:hint="Hubungan"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Batal"
+            android:id="@+id/tv_batal"
+            android:gravity="center"
+            android:textColor="@color/teksPutih"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Update"
+            android:id="@+id/tv_update"
+            android:textColor="@color/teksPutih"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="1dp" />
+
+    </LinearLayout>
+</RelativeLayout>
